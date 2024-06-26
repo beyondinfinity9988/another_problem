@@ -1,0 +1,104 @@
+/*****************************************************/
+/* DOCUMENT-WIDE STYLES */
+/*****************************************************/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    background-color: #ffecef;
+}
+
+h1 {
+    margin: 0;
+}
+
+a, a:hover, a:focus a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*****************************************************/
+/* NAVLINK */
+/*****************************************************/
+
+.navLink:hover {
+    background-color: #ffecef;
+    color: #251b37;
+}
+
+.navLink {
+    background-color: #533e6d;
+    color: #ffffff;
+}
+
+
+/*****************************************************/
+/* DROPDOWN */
+/*****************************************************/
+
+.dropDownContent {
+    display: none;
+}
+
+.dropDown:hover .dropDownContent {
+    display: flex;
+}
+
+.dropDown .dropDownLink {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    /* border-top-color: transparent; */
+}
+
+.dropDown:hover .dropDownLink {
+    /* border-left-color: #251b37;
+    border-right-color: #251b37;
+    border-top-color: #251b37; */
+    border-left-color: #533e6d;
+    border-right-color: #533e6d;
+    /* border-top-color: #533e6d; */
+}
+
+.dropDown:hover .navLink {
+    background-color: #ffecef;
+    color: #251b37;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 200,
+  'opsz' 48
+}
+
+
+/*****************************************************/
+/* TABLE ROWS */
+/*****************************************************/
+
+.tableRow:hover {
+    background-color: #ebf6ff !important;
+}
+
+
+/*****************************************************/
+/* HOME PAGE ANIMATION */
+/*****************************************************/
+
+/* @keyframes moveTitleLeft {
+    0% {
+
+    }
+} */
